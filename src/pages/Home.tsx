@@ -52,7 +52,8 @@ export function Home() {
         placeholderTextColor="#999"
         onChangeText={setNewSkill} />
 
-      <Button onPress={handleAddNewSkill}></Button>
+      <Button title="Add" onPress={handleAddNewSkill}>
+      </Button>
 
       <Text style={[styles.title, { marginVertical: 50 }]}>
         My Skills
